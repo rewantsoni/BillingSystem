@@ -1,3 +1,5 @@
+import java.util.Map;
+
 public class Bill {
 
     private final StringBuilder bill;

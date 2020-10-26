@@ -28,7 +28,7 @@ public class BillingSystemTest {
                 "Tax: 75.0\n" +
                 "Total+tax: 325.0\n";
 
-        assertEquals(expectedIndianBill, indianBillingSystem.generate(cart));
-        assertEquals(expectedEuropeanBill, europeBillingSystem.generate(cart));
+        assertEquals(expectedIndianBill, indianBillingSystem.generate(cart).generate());
+        assertEquals(expectedEuropeanBill, europeBillingSystem.generate(cart).generate());
     }
 }
